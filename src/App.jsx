@@ -1,5 +1,6 @@
 import { Home } from './components/Home.jsx'
 import { Navbar } from './components/Navbar.jsx'
+import { Proyects } from './components/Proyects.jsx'
 
 export default function App () {
   return (
@@ -9,6 +10,9 @@ export default function App () {
       </div>
       <div>
         <Home />
+      </div>
+      <div>
+        <Proyects />
       </div>
 
     </div>
