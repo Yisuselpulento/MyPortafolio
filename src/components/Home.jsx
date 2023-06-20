@@ -1,4 +1,4 @@
-import Foto from '../assets/img/Foto.webp'
+import Foto from '../assets/img/foto.webp'
 import { IconGit, IconInsta, React, Js, Tailwind, Css, Html, Photoshop } from './Icons.jsx'
 
 export const Home = () => {
