@@ -25,9 +25,9 @@ export const Navbar = () => {
         {' '}
       </button>
 
-      <nav className={`md:flex items-center py-2 md:px-2 px-8 md:w-[1000px] md:justify-between  ${!open && 'hidden'} `}>
+      <nav className={`md:flex items-center py-2 md:px-2 px-8 md:w-[1000px] md:justify-between bg-black bg-opacity-40 ${!open && 'hidden'} `}>
 
-        <div className='md:w-[70px] w-[70px] mb-4 md:mb-0'>
+        <div className='w-[60px] mb-4 md:mb-0'>
           <img src={Logo} />
         </div>
         <ul className='flex flex-col md:flex-row gap-10 md:text-lg text-3xl mb-10 md:mb-0'>

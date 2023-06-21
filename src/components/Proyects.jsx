@@ -1,5 +1,14 @@
 import React from 'react'
 import { Cards } from './Cards'
+import iron from '../assets/img/iron.webp'
+import silver from '../assets/img/silver.webp'
+import gold from '../assets/img/gold.webp'
+import platinum from '../assets/img/platinum.webp'
+import diamond from '../assets/img/diamond.webp'
+import master from '../assets/img/master.webp'
+import grandmaster from '../assets/img/grandmaster.webp'
+import challenger from '../assets/img/challenger.webp'
+import bronce from '../assets/img/bronce.webp'
 
 export const Proyects = () => {
   return (
@@ -10,50 +19,50 @@ export const Proyects = () => {
       </div>
       <div className='flex gap-10 flex-wrap md:p-20 justify-center'>
         <Cards
-          img1='../src/assets/img/iron.webp'
-          img2='../src/assets/img/bronce.webp'
+          img1={iron}
+          img2={bronce}
           precio1='300'
           precio2='100'
         />
         <Cards
-          img1='../src/assets/img/bronce.webp'
-          img2='../src/assets/img/silver.webp'
+          img1={bronce}
+          img2={silver}
           precio1='300'
           precio2='100'
         />
         <Cards
-          img1='../src/assets/img/silver.webp'
-          img2='../src/assets/img/gold.webp'
+          img1={silver}
+          img2={gold}
           precio1='300'
           precio2='100'
         />
         <Cards
-          img1='../src/assets/img/gold.webp'
-          img2='../src/assets/img/platinum.webp'
+          img1={gold}
+          img2={platinum}
           precio1='300'
           precio2='100'
         />
         <Cards
-          img1='../src/assets/img/platinum.webp'
-          img2='../src/assets/img/diamond.webp'
+          img1={platinum}
+          img2={diamond}
           precio1='300'
           precio2='100'
         />
         <Cards
-          img1='../src/assets/img/diamond.webp'
-          img2='../src/assets/img/master.webp'
+          img1={diamond}
+          img2={master}
           precio1='300'
           precio2='100'
         />
         <Cards
-          img1='../src/assets/img/master.webp'
-          img2='../src/assets/img/grandmaster.webp'
+          img1={master}
+          img2={grandmaster}
           precio1='300'
           precio2='100'
         />
         <Cards
-          img1='../src/assets/img/grandmaster.webp'
-          img2='../src/assets/img/challenger.webp'
+          img1={grandmaster}
+          img2={challenger}
           precio1='300'
           precio2='100'
         />
