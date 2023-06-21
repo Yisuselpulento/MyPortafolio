@@ -10,7 +10,7 @@ export const Home = () => {
         </div>
         <div className='flex flex-col md:w-[400px] md:gap-5 gap-10 '>
           <h1 className='text-6xl text-gray-200 tracking-tight font-black'><span className=' text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-yellow-500'>Front-End</span> React Developer</h1>
-          <p className='text-xl text-gray-300'>Mi nombre es Alan y soy un jugador profesional de League of Legends</p>
+          <p className='text-xl text-gray-300'>Mi nombre es Alan y soy un jugador profesional de League of Legends. Me especializo en subir cuentas de personas que son incapaces mentalmente o tienen alguna discapacidad en sus manos</p>
           <div className='flex md:gap-6 gap-3 flex-col md:flex-row transition-colors'>
             <div className=' shadow-yellow-500 shadow-3xl hover:shadow-3xl hover:shadow-red-500  rounded-full'>
               <a target='_blank' rel='noopener noreferrer' href='https://github.com/Yisuselpulento' className='flex gap-3 border border-yellow-500 hover:border-red-500  rounded-lg items-center py-3 px-12 font-bold w-full justify-center bg-black cursor-pointer'>

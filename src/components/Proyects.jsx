@@ -36,7 +36,7 @@ export const Proyects = () => {
       <Modal
         isOpen={modalIsOpen}
         style={customStyles}
-      ><TheModal />
+      ><TheModal setIsOpen={setIsOpen} />
       </Modal>
 
       <div className='flex justify-center flex-col items-center gap-5 text-center'>
