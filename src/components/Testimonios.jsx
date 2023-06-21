@@ -15,7 +15,7 @@ export const Testimonios = () => {
         <TestiPeople
           img={foto1}
           frase='Muy buena'
-          parrafo='Gracias a Dios encontre a este hombre, estaba cansada de jugar contra tipos tan trolles, ahora que subi con un precio tan bajo podre jugar en paz!'
+          parrafo='Gracias a Dios encontre esta pagina, estaba cansada de jugar contra tipos tan trolles, ahora que subi con un precio tan bajo podre jugar en paz!'
         />
         <TestiPeople
           img={foto2}

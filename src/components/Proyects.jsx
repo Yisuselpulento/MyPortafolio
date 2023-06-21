@@ -47,57 +47,57 @@ export const Proyects = () => {
         <Cards
           img1={iron}
           img2={bronce}
-          precio1='300'
-          precio2='100'
+          precio1='25.000'
+          precio2='3.500'
           setIsOpen={setIsOpen}
         />
         <Cards
           img1={bronce}
           img2={silver}
-          precio1='300'
-          precio2='100'
+          precio1='40.000'
+          precio2='5.000'
           setIsOpen={setIsOpen}
         />
         <Cards
           img1={silver}
           img2={gold}
-          precio1='300'
-          precio2='100'
+          precio1='70.000'
+          precio2='7.000'
           setIsOpen={setIsOpen}
         />
         <Cards
           img1={gold}
           img2={platinum}
-          precio1='300'
-          precio2='100'
+          precio1='100.000'
+          precio2='10.000'
           setIsOpen={setIsOpen}
         />
         <Cards
           img1={platinum}
           img2={diamond}
-          precio1='300'
-          precio2='100'
+          precio1='200.000'
+          precio2='25.000'
           setIsOpen={setIsOpen}
         />
         <Cards
           img1={diamond}
           img2={master}
-          precio1='300'
-          precio2='100'
+          precio1='400.000'
+          precio2='50.000'
           setIsOpen={setIsOpen}
         />
         <Cards
           img1={master}
           img2={grandmaster}
-          precio1='300'
-          precio2='100'
+          precio1='700.000'
+          precio2='70.000'
           setIsOpen={setIsOpen}
         />
         <Cards
           img1={grandmaster}
           img2={challenger}
-          precio1='300'
-          precio2='100'
+          precio1='1.000.000'
+          precio2='100.000'
           setIsOpen={setIsOpen}
         />
 
