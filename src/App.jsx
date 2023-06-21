@@ -1,10 +1,13 @@
+import { About } from './components/About.jsx'
 import { Home } from './components/Home.jsx'
 import { Navbar } from './components/Navbar.jsx'
 import { Proyects } from './components/Proyects.jsx'
+import { Testimonios } from './components/Testimonios.jsx'
+import { About2 } from './components/About2.jsx'
 
 export default function App () {
   return (
-    <div className='h-scren h-[1000px]'>
+    <div className='flex flex-col md:gap-20 '>
       <div>
         <Navbar />
       </div>
@@ -13,6 +16,12 @@ export default function App () {
       </div>
       <div>
         <Proyects />
+      </div>
+      <div>
+        <Testimonios />
+      </div>
+      <div>
+        <About />
       </div>
 
     </div>
