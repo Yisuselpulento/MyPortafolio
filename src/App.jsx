@@ -11,19 +11,19 @@ export default function App () {
       <div>
         <Navbar />
       </div>
-      <div>
+      <div id='home'>
         <Home />
       </div>
-      <div>
+      <div id='precios'>
         <Proyects />
       </div>
-      <div>
+      <div id='testimonios'>
         <Testimonios />
       </div>
-      <div>
+      <div id='about'>
         <About />
       </div>
-      <div>
+      <div id='footer'>
         <Footer />
       </div>
 

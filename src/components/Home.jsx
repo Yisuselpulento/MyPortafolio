@@ -13,16 +13,16 @@ export const Home = () => {
           <p className='text-xl text-gray-300'>Mi nombre es Alan y soy un jugador profesional de League of Legends</p>
           <div className='flex md:gap-6 gap-3 flex-col md:flex-row transition-colors'>
             <div className=' shadow-yellow-500 shadow-3xl hover:shadow-3xl hover:shadow-red-500  rounded-full'>
-              <button className='flex gap-3 border border-yellow-500 hover:border-red-500  rounded-lg items-center py-3 px-12 font-bold w-full justify-center bg-black'>
+              <a target='_blank' rel='noopener noreferrer' href='https://github.com/Yisuselpulento' className='flex gap-3 border border-yellow-500 hover:border-red-500  rounded-lg items-center py-3 px-12 font-bold w-full justify-center bg-black cursor-pointer'>
                 GitHub
                 <IconGit />
-              </button>
+              </a>
             </div>
 
-            <button className='flex gap-3 border rounded-lg items-center py-3 px-7 font-bold w-full bg-black justify-center hover:border-black hover:text-black hover:bg-white '>
+            <a target='_blank' rel='noopener noreferrer' href='https://www.instagram.com/_.monsster._/' className='flex gap-3 border rounded-lg items-center py-3 px-7 font-bold w-full bg-black justify-center hover:border-black hover:text-black hover:bg-white cursor-pointer'>
               Instagram
               <IconInsta />
-            </button>
+            </a>
 
           </div>
         </div>

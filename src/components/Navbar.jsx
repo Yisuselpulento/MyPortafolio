@@ -32,16 +32,20 @@ export const Navbar = () => {
         </div>
         <ul className='flex flex-col md:flex-row gap-10 md:text-lg text-3xl mb-10 md:mb-0'>
           <li>
-            <a href='/'>Home</a>
+            <a className='hover:text-yellow-500' href='#home'>Home</a>
           </li>
           <li>
-            <a href='/'>About</a>
+            <a className='hover:text-yellow-500' href='#about'>About</a>
           </li>
           <li>
-            <a href='/'>Proyectos</a>
+            <a className='hover:text-yellow-500' href='#precios'>Precios</a>
+          </li>
+
+          <li>
+            <a className='hover:text-yellow-500' href='#testimonios'>Testimonios</a>
           </li>
           <li>
-            <a href='/'>Contactame</a>
+            <a className='hover:text-yellow-500' href='#footer'>Contactame</a>
           </li>
 
         </ul>

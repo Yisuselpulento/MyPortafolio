@@ -1,4 +1,4 @@
-export const Cards = ({ img1, img2, precio1, precio2 }) => {
+export const Cards = ({ img1, img2, precio1, precio2, setIsOpen }) => {
   return (
     <div className='flex flex-col gap-9  shadow shadow-gray-800 items-center justify-center p-3 rounded-lg py-5'>
       <div className='flex gap-3 items-center text-gray-400 '>
@@ -14,7 +14,10 @@ export const Cards = ({ img1, img2, precio1, precio2 }) => {
         <p className='text-lg'>Precio por Div: ${precio2}</p>
       </div>
       <div>
-        <button className='flex gap-3 border border-yellow-500 hover:border-red-500  rounded-lg items-center py-3 px-12 font-bold  justify-center bg-black'>
+        <button
+          onClick={() => setIsOpen(true)}
+          className='flex gap-3 border border-yellow-500 hover:border-red-500  rounded-lg items-center py-3 px-12 font-bold  justify-center bg-black'
+        >
           Escoger
 
         </button>
