@@ -5,8 +5,8 @@ export const Footer = () => {
   return (
     <div className='py-10 bg-zinc-900 flex flex-col md:flex-row md:justify-between md:px-80 items-center justify-center gap-10'>
       <div className='flex flex-col gap-5 items-center'>
-        <div className='w-[100px]'>
-          <img src={logobw} />
+        <div>
+          <img src={logobw} alt='logo de footer' width={100} />
 
         </div>
         <div>

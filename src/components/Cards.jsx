@@ -7,7 +7,7 @@ export const Cards = ({ img1, img2, precio1, precio2, setIsOpen }) => {
           <path strokeLinecap='round' strokeLinejoin='round' d='M8.25 4.5l7.5 7.5-7.5 7.5' />
         </svg>
 
-        <img className='w-[120px]' src={img2} alt='imagen de emblema 2' />
+        <img src={img2} alt='imagen de emblema 2' width={120} />
       </div>
       <div>
         <p className='text-xl'>Precio por liga: ${precio1}</p>

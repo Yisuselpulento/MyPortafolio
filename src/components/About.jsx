@@ -1,4 +1,4 @@
-import Asamitaka from '../assets/img/Asamitaka.jfif'
+import Asamitaka from '../assets/img/Asamitaka.webp'
 
 export const About = () => {
   return (
@@ -14,7 +14,7 @@ export const About = () => {
           </p>
         </div>
         <div className='flex justify-center'>
-          <img className=' shadow-pink-500 shadow-3xl ' src={Asamitaka} width={300} />
+          <img className=' shadow-pink-500 shadow-3xl ' src={Asamitaka} width={300} alt='imagen de asa mitaka' />
 
         </div>
 

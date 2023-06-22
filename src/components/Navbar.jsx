@@ -27,8 +27,8 @@ export const Navbar = () => {
 
       <nav className={`md:flex items-center py-2 md:px-2 px-8 md:w-[1000px] md:justify-between bg-black bg-opacity-40 ${!open && 'hidden'} `}>
 
-        <div className='w-[60px] mb-4 md:mb-0'>
-          <img src={Logo} />
+        <div className='mb-4 md:mb-0'>
+          <img src={Logo} alt='logo del protagonista' width={60} />
         </div>
         <ul className='flex flex-col md:flex-row gap-10 md:text-lg text-3xl mb-10 md:mb-0'>
           <li>

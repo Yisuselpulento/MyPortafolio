@@ -5,8 +5,8 @@ export const Home = () => {
   return (
     <main className='md:px-20 md:pt-60 p-20 flex flex-col md:gap-40  items-center gap-10'>
       <div className='flex flex-col md:flex-row justify-center items-center gap-20'>
-        <div className=' md:w-[280px]'>
-          <img src={Foto} className='rounded-full' />
+        <div>
+          <img src={Foto} className='rounded-full' alt='foto del protagonista ' width={280} />
         </div>
         <div className='flex flex-col md:w-[400px] md:gap-5 gap-10 '>
           <h1 className='text-6xl text-gray-200 tracking-tight font-black'><span className=' text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-yellow-500'>Front-End</span> React Developer</h1>
